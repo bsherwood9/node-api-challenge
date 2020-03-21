@@ -5,10 +5,10 @@ const pRouter = require("./data/routers/pRouter.js");
 const server = express();
 
 server.use(express.json());
+server.use(cors());
 server.use("/actions", actionRouter);
 server.use("/projects", pRouter);
 server.use(methodLogger);
-server.use(cors());
 
 module.exports = server;
 
