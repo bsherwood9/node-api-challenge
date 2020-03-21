@@ -39,14 +39,16 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
-
+      Express's middleware functions and convenience helpers.
 - [ ] Describe Middleware?
-
+      Middleware are functions get data, manipulate that data, then the fire an action. So we have chains of middleware that massage the response and deliver it to the client.
 - [ ] Describe a Resource?
-
+      I'm pretty sure that this has to do with Rest. Everything you interact with is a resource in rest. It is an object that has a type, data, and also http methods that can operate on it.
 - [ ] What can the API return to help clients know if a request was successful?
+      Could return data or status codes to let clients know that response was successful.
 
 - [ ] How can we partition our application into sub-applications?
+      I'm not sure what you mean by this. I mean we can partition our applications into several smaller apis. Microservices are a good example.
 
 ## Minimum Viable Product
 
